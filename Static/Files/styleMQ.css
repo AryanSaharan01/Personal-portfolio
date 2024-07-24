@@ -1,0 +1,795 @@
+/* @media screen and (max-width: 780px) {
+
+    .desktop-view-nav {
+        display: none;
+    }
+
+    .mobile-view-nav {
+        display: block;
+    }
+} */
+
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        top: 20vh;
+        translate: -170px 0px;
+    }
+
+    .main-home {
+        padding-bottom: 45vh;
+    }
+
+    .box-1-text {
+        margin-left: 18vw;
+        font-size: 72px;
+    }
+
+
+    .box-1-text:hover {
+        scale: 1.2;
+        translate: 55px 0px;
+        z-index: 1;
+    }
+
+    .box-1-text :nth-child(1) {
+        font-size: 20px;
+    }
+
+    .box-1-text :nth-child(5) {
+        font-size: 30px;
+    }
+
+    .box-2-image {
+        margin-right: 6vw;
+        width: 330px;
+        height: 140%;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .section-home {
+        height: auto;
+    }
+
+    .section-about,
+    .section-skill,
+    .section-services,
+    .section-projects,
+    .section-contact {
+        padding-top: 10vh;
+        padding-bottom: 8vh;
+        height: auto;
+    }
+
+    .projects-grid {
+        width: 85%;
+    }
+
+    .bottom-box {
+        width: 75%;
+    }
+
+    .footer-content-flex {
+        width: 80%;
+    }
+
+    .footer-box {
+        padding: 20px 22px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .box1 {
+        width: 300px;
+        height: 480px;
+    }
+
+    .box2 {
+        width: 280px;
+        height: 460px;
+    }
+
+    .box3 {
+        width: 260px;
+        height: 440px;
+    }
+
+    .box4 {
+        width: 240px;
+        height: 420px;
+    }
+
+    .box5 {
+        width: 220px;
+        height: 400px;
+    }
+
+    .desktop-view-nav {
+        width: 88%;
+        left: 3%;
+        padding: 2vh 3vw;
+
+        /* box-shadow: 0px 1px 11px 1px var(--Th-B-3); */
+
+    }
+
+    .section-home {
+        width: 100%;
+    }
+
+    .main-home {
+        display: block;
+    }
+
+    .box-1-text {
+        margin-left: 35%;
+        position: relative;
+        z-index: 1;
+        width: fit-content;
+
+        /* border: 2px solid red; */
+    }
+
+    .box-2-image {
+        margin-left: 35%;
+        margin-right: 0;
+        width: 400px;
+        translate: -31px -69%;
+        /* background-size: contain; */
+    }
+
+    .about-first-heading,
+    .skill-first-heading,
+    .services-first-heading,
+    .projects-first-heading,
+    .contact-first-heading {
+        font-size: 73px;
+    }
+
+    .about-second-heading,
+    .skill-second-heading,
+    .services-second-heading,
+    .projects-second-heading,
+    .contact-second-heading {
+        font-size: 100px;
+    }
+
+    .main-about {
+        grid-template-columns: 0.8fr 1fr;
+    }
+
+    .section-skill {
+        height: 90vh;
+    }
+
+    .skill-grid {
+        width: 85%;
+    }
+
+    .section-skill-para {
+        width: 50%;
+    }
+
+    .container-skill {
+        font-size: 18px;
+    }
+
+    .skill-reset {
+        width: 20%;
+    }
+
+    .section-services {
+        height: auto;
+        padding-bottom: 5vh;
+    }
+
+    .section-projects {
+        padding-bottom: 5vh;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-grid {
+        width: 90%;
+        grid-gap: 25px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bottom-box {
+        width: 85%;
+        padding: 0;
+    }
+
+    .bottom-box {
+        gap: 10px;
+    }
+
+    .bottom-text {
+        width: 210px;
+    }
+
+    .footer-content-flex {
+        width: 95%;
+    }
+
+    .footer-box {
+        padding: 20px 18px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .desktop-view-nav {
+        display: none;
+    }
+
+
+    .mobile-view-nav {
+        display: block;
+        padding-top: 3vh;
+        backdrop-filter: blur(20px);
+
+    }
+
+    #myLinks {
+        backdrop-filter: blur(20px);
+        padding: 5px 0px;
+        padding-left: 50%;
+    }
+
+    .section-home {
+        height: 90vh;
+    }
+
+    .box-2-image {
+        width: 100%;
+        margin-left: 0;
+        filter: blur(10px);
+    }
+
+    .container {
+        z-index: 1;
+    }
+
+    .box {
+        border-width: 4px;
+    }
+
+    .container {
+        translate: -180px 0px;
+    }
+
+
+    .box-1-text {
+        margin-left: 27%;
+        font-size: 66px;
+    }
+
+
+    .box-1-text:hover {
+        scale: 1.2;
+        translate: 50px 0px;
+        z-index: 1;
+    }
+
+    .box-1-text :nth-child(1) {
+        font-size: 20px;
+    }
+
+    .box-1-text :nth-child(5) {
+        font-size: 27px;
+    }
+
+    .about-first-heading,
+    .skill-first-heading,
+    .services-first-heading,
+    .projects-first-heading,
+    .contact-first-heading {
+        font-size: 68px;
+    }
+
+    .about-second-heading,
+    .skill-second-heading,
+    .services-second-heading,
+    .projects-second-heading,
+    .contact-second-heading {
+        font-size: 95px;
+    }
+
+    .section-about {
+        height: auto;
+    }
+
+    .main-about {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .details {
+        padding-right: 0;
+        width: 70%;
+        margin: auto;
+        margin-top: 5vh;
+    }
+
+    .details-table {
+        width: 100%;
+    }
+
+    .section-skill-para {
+        width: 55%;
+        font-size: 16px;
+    }
+
+    .skill-grid-box h3 {
+        font-size: 22px;
+    }
+
+    .container-skill {
+        font-size: 16px;
+    }
+
+    .services-grid {
+        width: 80%;
+    }
+
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 70%;
+        gap: 30px;
+    }
+
+    .bottom-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 250px;
+    }
+
+    .bottom-text h1 {
+        font-size: 32px;
+    }
+
+    .footer-content-flex {
+        display: block;
+    }
+
+    /* --------------- */
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .box1 {
+        width: 300px;
+        height: 460px;
+    }
+
+    .box2 {
+        width: 280px;
+        height: 440px;
+    }
+
+    .box3 {
+        width: 260px;
+        height: 420px;
+    }
+
+    .box4 {
+        width: 240px;
+        height: 400px;
+    }
+
+    .box5 {
+        width: 220px;
+        height: 380px;
+    }
+
+    .container {
+        top: 28vh;
+        translate: -190px 0px;
+    }
+
+
+    .box-1-text {
+        margin-left: 30%;
+        font-size: 61px;
+    }
+
+    .box-1-text :nth-child(1) {
+        font-size: 17px;
+    }
+
+    .box-1-text :nth-child(5) {
+        font-size: 24px;
+    }
+
+
+    .about-first-heading,
+    .skill-first-heading,
+    .services-first-heading,
+    .projects-first-heading,
+    .contact-first-heading {
+        font-size: 60px;
+    }
+
+    .about-second-heading,
+    .skill-second-heading,
+    .services-second-heading,
+    .projects-second-heading,
+    .contact-second-heading {
+        font-size: 85px;
+    }
+
+    .section-skill {
+        height: auto;
+    }
+
+    .section-skill-para {
+        font-size: 15px;
+    }
+
+    .skill-grid-box h3 {
+        font-size: 20px;
+    }
+
+    .container-skill {
+        font-size: 14px;
+    }
+
+    .skill-reset {
+        width: 35%;
+    }
+
+    .services-grid {
+        width: 95%;
+    }
+
+    .service-box-icon {
+        translate: 10px -50px;
+    }
+
+    .service-box:hover {
+        .service-box-icon {
+            translate: 70px -50px;
+        }
+    }
+
+    /* ----------------------------- */
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .box1 {
+        width: 280px;
+        height: 480px;
+    }
+
+    .box2 {
+        width: 260px;
+        height: 460px;
+    }
+
+    .box3 {
+        width: 240px;
+        height: 440px;
+    }
+
+    .box4 {
+        width: 220px;
+        height: 420px;
+    }
+
+    .box5 {
+        width: 200px;
+        height: 400px;
+    }
+
+    .section-home {
+        height: 100vh;
+    }
+
+    .mobile-view-nav {
+        display: block;
+        position: relative;
+        top: 4vh;
+    }
+
+    #myLinks {
+        line-height: 1.3em;
+        /* background-color: aliceblue; */
+        backdrop-filter: blur(10px);
+        z-index: 2;
+        padding-left: 33%;
+        font-size: 16px;
+    }
+
+    .container {
+        top: 25vh;
+        translate: -190px 0px;
+        /* z-index: 0; */
+    }
+
+    .box-2-image {
+        width: 95%;
+        translate: 0px -65%;
+    }
+
+    .box-1-text {
+        font-size: 53px;
+    }
+
+    .box-1-text:hover {
+        scale: 1.2;
+        translate: 38px 0px;
+        z-index: 1;
+    }
+
+    .box-1-text :nth-child(1) {
+        font-size: 15px;
+    }
+
+    .box-1-text :nth-child(5) {
+        font-size: 20px;
+    }
+
+    .about-first-heading,
+    .skill-first-heading,
+    .services-first-heading,
+    .projects-first-heading,
+    .contact-first-heading {
+        font-size: 50px;
+    }
+
+    .about-second-heading,
+    .skill-second-heading,
+    .services-second-heading,
+    .projects-second-heading,
+    .contact-second-heading {
+        font-size: 74px;
+        translate: 0px -60px;
+    }
+
+    .about-second-heading:hover,
+    .skill-second-heading:hover,
+    .services-second-heading:hover,
+    .projects-second-heading:hover,
+    .contact-second-heading:hover {
+        translate: 0 -70px;
+
+    }
+
+    /* .about-second-heading:hover {
+        translate: 0 -70px;
+    } */
+
+    .skill-grid {
+        width: 90%;
+        padding: 0;
+    }
+
+    .services-grid {
+        width: 75%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service-box:hover {
+        .service-box-icon {
+            translate: 170px -50px;
+        }
+    }
+
+    .inner-flex {
+        margin: 0px 6px;
+    }
+
+    .flex {
+        gap: 10px;
+    }
+
+    .contact-button {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sidepanel {
+        width: 400px;
+    }
+
+
+    /* ----------------------- */
+}
+
+@media screen and (max-width: 414px){
+
+    .service-box:hover {
+        .service-box-icon {
+            translate: 130px -50px;
+        }
+    }
+    
+    .bottom-form {
+        width: 85%;
+    }
+    
+    .bottom-box {
+        width: 95%;
+    }
+    
+    .main-flex input {
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 380px) {
+
+    .box-1-text {
+        font-size: 50px;
+    }
+
+    .box-1-text :nth-child(5) {
+        font-size: 18px;
+    }
+
+    .about-first-heading,
+    .skill-first-heading,
+    .services-first-heading,
+    .projects-first-heading,
+    .contact-first-heading {
+        font-size: 45px;
+    }
+
+    .about-second-heading,
+    .skill-second-heading,
+    .services-second-heading,
+    .projects-second-heading,
+    .contact-second-heading {
+        font-size: 68px;
+        translate: 0px -55px;
+    }
+
+    .section-skill-para {
+        font-size: 14px;
+    }
+
+    .container-skill {
+        font-size: 12px;
+    }
+
+    .skill-grid-box h3 {
+        font-size: 18px;
+    }
+
+    .skill-reset {
+        font-size: 16px;
+    }
+
+    .projects-grid {
+        width: 83%;
+    }
+
+    .service-box:hover {
+        .service-box-icon {
+            translate: 130px -50px;
+        }
+    }
+
+    .bottom-form {
+        width: 85%;
+    }
+
+    .bottom-box {
+        width: 95%;
+    }
+
+    .main-flex input {
+        width: 100%;
+    }
+
+
+    /* --------------------------- */
+}
+
+@media screen and (max-width: 320px) {
+
+    .box1 {
+        width: 260px;
+        height: 480px;
+    }
+
+    .box2 {
+        width: 240px;
+        height: 460px;
+    }
+
+    .box3 {
+        width: 220px;
+        height: 440px;
+    }
+
+    .box4 {
+        width: 200px;
+        height: 420px;
+    }
+
+    .box5 {
+        width: 180px;
+        height: 400px;
+    }
+
+    .box-1-text {
+        font-size: 42px;
+    }
+
+    .box-1-text :nth-child(1) {
+        font-size: 12px;
+    }
+
+    .box-1-text :nth-child(5) {
+        font-size: 15px;
+    }
+
+    .about-first-heading,
+    .skill-first-heading,
+    .services-first-heading,
+    .projects-first-heading,
+    .contact-first-heading {
+        font-size: 40px;
+    }
+
+    .about-second-heading,
+    .skill-second-heading,
+    .services-second-heading,
+    .projects-second-heading,
+    .contact-second-heading {
+        font-size: 62px;
+        translate: 0px -55px;
+    }
+
+    .details p {
+        font-size: 15px;
+    }
+
+    .details-table tr :nth-child(1) {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .details-table tr :nth-child(2) {
+        font-size: 15px;
+    }
+
+    .service-box:hover {
+        .service-box-icon {
+            translate: 95px -50px;
+        }
+    }
+
+
+    /* --------------- */
+}

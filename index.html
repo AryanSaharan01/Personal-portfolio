@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Static/Files/style.css" />
+    <link rel="stylesheet" href="Static/Files/styleMQ.css" />
+    <link rel="stylesheet" href="Static/Files/themes.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- <div class="blur"></div> -->
+    <!-- ---------- -->
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+    </div>
+    <!-- ---------- -->
+
+    <div class="section-home home-image" id="home">
+
+        <header>
+            <nav class="desktop-view-nav" id="navbar">
+                <li class="logo"><a href="">ARYAN</a></li>
+                <ul>
+                    <li><a href="##" onclick="scrollToHome()">Home</a></li>
+                    <li><a href="##" onclick="scrollToAbout()">About</a></li>
+                    <li><a href="##" onclick="scrollToSkill()">Skill</a></li>
+                    <li><a href="##" onclick="scrollToServices()">Services</a></li>
+                    <li><a href="##" onclick="scrollToProjects()">Projects</a></li>
+                    <li><a href="##" onclick="scrollToContact()">Contact</a></li>
+                </ul>
+            </nav>
+
+            <nav class="mobile-view-nav">
+                <div class="topnav">
+                    <a href="##" class="active logo">ARYAN</a>
+
+                    <div id="myLinks">
+                        <a href="##" onclick="scrollToHome()">Home</a>
+                        <a href="##" onclick="scrollToAbout()">About</a>
+                        <a href="##" onclick="scrollToSkill()">Skill</a>
+                        <a href="##" onclick="scrollToServices()">Services</a>
+                        <a href="##" onclick="scrollToProjects()">Projects</a>
+                        <a href="##" onclick="scrollToContact()">Contact</a>
+                    </div>
+
+                    <a href="##" class="icon" onclick="Mobilenav()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="main-home">
+            <div class="box-1-text">
+                <p>Hello!</p>
+                <span>I'm</span>
+                <span class="hover-scale"> Aryan</span>
+                <p class="hover-scale">Saharan</p>
+                <p>A Freelance Web Designer.....</p>
+            </div>
+            <div class="box-2-image"></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- ------------------------------------------------------------------------ -->
+
+    <div class="section-about" id="about">
+        <h1 class="about-first-heading">
+            About Me
+        </h1>
+        <h2 class="about-second-heading">About Me</h2>
+
+        <div class="main-about">
+            <div class="card">
+                <!-- <img src="https://static.vecteezy.com/system/resources/previews/003/623/626/non_2x/sunset-lake-landscape-illustration-free-vector.jpg"
+                    alt="John" /> -->
+                <img src="Static/dp1.jpg" alt="" class="card-image">
+                <h1>Aryan Saharan</h1>
+                <p class="title">BTech CSE, Fresher</p>
+                <p>KR Mangalam University</p>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <p><button class="card-button" onclick="scrollToHome()">Contact</button></p>
+            </div>
+
+            <div class="details">
+                <p>
+                    I am a dedicated web developer with a strong foundation in HTML, CSS, and JavaScript, complemented
+                    by experience with the FLASK framework. My expertise includes designing and developing complete
+                    websites from scratch, ensuring that each project meets high standards of functionality and
+                    aesthetic appeal.
+                </p>
+                <br>
+                <p>
+                    With a keen interest in collaborative work environments, I am highly team-oriented and thrive in
+                    settings that require effective communication and cooperative problem-solving. Throughout my career,
+                    I have successfully completed various minor projects, each contributing to my growth and proficiency
+                    as a web developer.
+                </p>
+                <table class="details-table">
+                    <tr>
+                        <td>Name:</td>
+                        <td>Aryan Saharan</td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth:</td>
+                        <td>28 October 20**</td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>xyz 203 MK Gurugram</td>
+                    </tr>
+                    <tr>
+                        <td>Zip Code:</td>
+                        <td>12030</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>sampleexample@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td>+91-231212</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------------ -->
+
+
+    <div class="section-skill" id="skill">
+        <h2 class="skill-first-heading">Skills</h2>
+        <h2 class="skill-second-heading">My Skills</h2>
+
+        <p class="section-skill-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt illum nemo
+            perspiciatis aliquid, pariatur
+            natus explicabo consequuntur neque quo modi debitis reprehenderit error, sint magnam accusantium, magni
+            beatae exercitationem voluptatibus?
+        </p>
+
+        <div class="skill-grid">
+            <div class="skill-grid-box">
+                <h3>Python</h3>
+                <div class="container-skill" id="myProgress1" onmouseover="move(0)">
+                    <div class="python" id="myBar1">75%</div>
+                </div>
+            </div>
+
+            <div class="skill-grid-box">
+                <h3>HTML5</h3>
+                <div class="container-skill" id="myProgress2" onmouseover="move(1)">
+                    <div class="html  myBar" id="myBar2">95%</div>
+                </div>
+            </div>
+
+            <div class="skill-grid-box">
+                <h3>CSS</h3>
+                <div class="container-skill" id="myProgress3" onmouseover="move(2)">
+                    <div class="css  myBar" id="myBar3">89%</div>
+                </div>
+            </div>
+
+            <div class="skill-grid-box">
+                <h3>SEO</h3>
+                <div class="container-skill" id="myProgress4" onmouseover="move(3)">
+                    <div class="seo  myBar" id="myBar4">25%</div>
+                </div>
+            </div>
+
+            <div class="skill-grid-box">
+                <h3>Wordpress</h3>
+                <div class="container-skill" id="myProgress5" onmouseover="move(4)">
+                    <div class="wp  myBar" id="myBar5">50%</div>
+                </div>
+            </div>
+
+            <div class="skill-grid-box">
+                <h3>JavaScript</h3>
+                <div class="container-skill" id="myProgress6" onmouseover="move(5)">
+                    <div class="js  myBar" id="myBar6">68%</div>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="skill-reset-para">
+            <button class="skill-reset" onclick="reset()">Reset Skills</button>
+        </p>
+    </div>
+
+    <!-- ------------------------------------------------------------------------ -->
+
+    <div class="section-services" id="services">
+
+        <h2 class="services-first-heading">Services</h2>
+        <h2 class="services-second-heading">My Serices</h2>
+
+        <div class="services-grid">
+
+            <div class="service-box">
+                <div class="service-box-icon">
+                    <img src="Static/webD.png" alt="" class="service-icon">
+                </div>
+
+                <h2>Web Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut porro officiis et magni
+                    voluptatibus perferendis officia animi veritatis mollitia?</p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-box-icon">
+                    <img src="Static/logo-design.png" alt="" class="service-icon">
+                </div>
+
+                <h2>Logo Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut porro officiis et magni
+                    voluptatibus perferendis officia animi veritatis mollitia?</p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-box-icon">
+                    <img src="Static/branding.png" alt="" class="service-icon">
+                </div>
+
+                <h2>Branding</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut porro officiis et magni
+                    voluptatibus perferendis officia animi veritatis mollitia?</p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-box-icon">
+                    <img src="Static/ux-design.png" alt="" class="service-icon">
+                </div>
+
+                <h2>Graphic Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut porro officiis et magni
+                    voluptatibus perferendis officia animi veritatis mollitia?</p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-box-icon">
+                    <img src="Static/webD.png" alt="" class="service-icon">
+                </div>
+
+                <h2>Web Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut porro officiis et magni
+                    voluptatibus perferendis officia animi veritatis mollitia?</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ------------------------------------------------------------------------ -->
+
+    <div class="section-projects" id="projects">
+
+        <h2 class="projects-first-heading">Projects</h2>
+        <h2 class="projects-second-heading">My Projects</h2>
+
+
+        <div class="projects-grid">
+
+            <div class="project-container">
+                <img src="Static/image.jpeg" alt="Avatar" class="image">
+                <div class="project-overlay">
+                    <div class="text">
+                        <p>
+                        <h2>Hello World</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste enim amet adipisci.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-container">
+                <img src="Static/image.jpeg" alt="Avatar" class="image">
+                <div class="project-overlay">
+                    <div class="text">
+                        <p>
+                        <h2>Hello World</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing sit amet consectetur adipisicing elit. Iste
+                        enim amet adipisci.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-container">
+                <img src="Static/image.jpeg" alt="Avatar" class="image">
+                <div class="project-overlay">
+                    <div class="text">
+                        <p>
+                        <h2>Hello World</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste enim amet adipisci.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- ------------------------------------------------------------------------ -->
+
+    <div class="section-contact" id="contact">
+
+        <h2 class="contact-first-heading">Contact</h2>
+        <h2 class="contact-second-heading">Contact Me</h2>
+
+        <div class="bottom-box" id="contactSection">
+
+            <div class="bottom-text">
+                <h1>Have a Project ?</h1>
+
+                <p style="font-size: 17px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam rerum,
+                    dolorem impedit architecto soluta amet temporibus tempora minima pariatur! Laboriosam?</p>
+
+                <div class="cont-detail">
+                    <p class="p-one">Tel: 896765</p>
+                    <p>example@mail.comm</p>
+                </div>
+
+                <div class="address">
+                    <p class="p-two">21xyz 203 MK, Gurugram </p>
+                    <p>Haryana, India 12030</p>
+                </div>
+
+            </div>
+
+            <div class="bottom-form">
+
+                <div class="main-flex">
+                    <div class="flex">
+
+                        <div class="inner-flex">
+                            <label for="firstName">
+                                <p>First Name</p>
+                            </label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+
+                        <div class="inner-flex">
+                            <label for="lastName">
+                                <p>Last Name</p>
+                            </label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="inner-flex">
+                            <label for="email">
+                                <p>Email</p>
+                            </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="inner-flex">
+                            <label for="subject">
+                                <p>Subject</p>
+                            </label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                    </div>
+
+                    <label for="message">
+                        <p>Leave us a message...</p>
+                    </label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button class="contact-button" type="submit">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------THEME TOGGLE------------------------------------ -->
+    <div id="mySidepanel" class="sidepanel">
+
+        <div class="circle-box">
+            <button class="theme-button theme-1" onclick="setTheme('theme-1')"></button>
+        </div>
+
+        <div class="circle-box">
+            <button class="theme-button theme-2" onclick="setTheme('theme-2')"></button>
+        </div>
+
+        <div class="circle-box">
+            <button class="theme-button theme-3" onclick="setTheme('theme-3')"></button>
+        </div>
+
+        <div class="circle-box">
+            <button class="theme-button theme-4" onclick="setTheme('theme-4')"></button>
+        </div>
+
+    </div>
+
+    <!-- <button class="openbtn" onclick="openNav()">☰ Theme</button> -->
+    <button class="openbtn" onclick="toggleNav()">
+        <img src="Static/idea.png" alt="">
+    </button>
+    <!-- ------------------------------------------------------------------------ -->
+
+    <footer class="footer">
+
+        <hr>
+        <div class="footer-content-flex">
+
+            <div class="footer-box  ftr-1  ftr-centre">
+                <h1>Aryan Saharan</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur in quisquam esse
+                    placeat eius officiis provident dolorem explicabo obcaecati natus pariatur illo mollitia at, animi
+                    doloremque. Culpa magni commodi optio voluptatem, tenetur ea alias accusantium suscipit deleniti
+                    corrupti voluptatum.</p>
+            </div>
+
+            <div class="footer-box  ftr-2  margin-l  mch-1">
+                <h1>Links</h1>
+                <p><a href="##">》Home</a></p>
+                <p><a href="##">》About</a></p>
+                <p><a href="##">》Skill</a></p>
+                <p><a href="##">》Services</a></p>
+                <p><a href="##">》Projects</a></p>
+                <p><a href="##">》Contact</a></p>
+            </div>
+
+            <div class="footer-box  ftr-3  margin-l  mch-2">
+                <h1>Services</h1>
+                <p><a href="##">》Web Designing</a></p>
+                <p><a href="##">》Logo Designing</a></p>
+                <p><a href="##">》Branding</a></p>
+                <p><a href="##">》Graphic Designing</a></p>
+                <p><a href="##">》Branding</a></p>
+
+            </div>
+
+            <div class="footer-box  ftr-4  ftr-centre">
+                <h1>Have a Question ?</h1>
+                <p> 21xyz 203 MK, Gurugram, Haryana, India 12030 </p>
+                <p>Tel: 896765</p>
+                <p>example@mail.comm</p>
+            </div>
+
+        </div>
+
+        <p class="ftr-last-line">Copyright © All rights reserved | This template is made with by Aryan Saharan</p>
+    </footer>
+</body>
+
+<script src="Static/Files/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+</html>

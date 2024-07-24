@@ -1,0 +1,811 @@
+:root {
+    --Th-B-1: #222831;
+    --Th-B-2: #393E46;
+    --Th-B-3: #00ADB5;
+    --Th-B-4: #EEEEEE;
+    --Th-B-4l: #e0e0e08f;
+
+    /* ---THEME 1------ */
+    --Th-A-1: #32012f;
+    --Th-A-2: #524c42;
+    --Th-A-3: #f97300;
+    --Th-A-4: #e2dfd0;
+    --Th-A-4l: #e2dfd0ac;
+
+    /* ---THEME 2------ */
+    --Th-C-1: #040D12;
+    --Th-C-2: #183D3D;
+    --Th-C-3: #3d8569;
+    --Th-C-4: #ade4cf;
+    --Th-C-4l: #93b1a665;
+    /* --Th-C-4l: #93b1a6b6; */
+
+    /* ---THEME 3------ */
+    --Th-D-1: #2C3639;
+    --Th-D-2: #3F4E4F;
+    --Th-D-3: #A27B5C;
+    --Th-D-4: #DCD7C9;
+    --Th-D-4l: #dcd7c97f;
+}
+
+.theme-1 {
+
+    .desktop-view-nav ul li a:hover {
+        color: var(--Th-A-3);
+    }
+
+    .topnav,
+    .active {
+        background-color: var(--Th-A-1);
+    }
+
+    .home-image {
+        background-color: var(--Th-A-1);
+    }
+
+    .box {
+        box-shadow: 2px 2px 3px 2px var(--Th-A-4);
+    }
+
+    .box-1-text {
+        color: var(--Th-A-4);
+    }
+
+    .box-1-text :nth-child(1) {
+        color: var(--Th-A-3);
+    }
+
+    .box-1-text :nth-child(3) {
+        color: var(--Th-A-1);
+        text-shadow: -1px -1px 0 var(--Th-A-3), 1px -1px 0 var(--Th-A-3),
+            -1px 1px 0 var(--Th-A-3), 1px 1px 0 var(--Th-A-3);
+    }
+
+    .box-1-text :nth-child(4) {
+        color: var(--Th-A-1);
+        text-shadow: -1px -1px 0 var(--Th-A-3), 1px -1px 0 var(--Th-A-3),
+            -1px 1px 0 var(--Th-A-3), 1px 1px 0 var(--Th-A-3);
+    }
+
+    .box {
+        border: 6px solid var(--Th-A-3);
+    }
+
+    .box-2-image {
+        box-shadow: 0px 0px 16px 5px var(--Th-A-3);
+    }
+
+    .section-about {
+        background-color: var(--Th-A-1);
+    }
+
+    .about-first-heading {
+        color: var(--Th-A-4l);
+    }
+
+    .about-second-heading {
+        color: var(--Th-A-3);
+    }
+
+    .about-second-heading:hover {
+        color: var(--Th-A-1);
+        text-shadow: -2px -2px 0 var(--Th-A-3), 2px -2px 0 var(--Th-A-3),
+            -2px 2px 0 var(--Th-A-3), 2px 2px 0 var(--Th-A-3);
+    }
+
+    .card {
+        box-shadow: 0px 0px 18px 5px var(--Th-A-3);
+        background-color: var(--Th-A-2);
+    }
+
+    .card:hover {
+        box-shadow: 9px 9px 18px 1px var(--Th-A-3);
+    }
+
+    .title {
+        color: var(--Th-A-4);
+    }
+
+    .card-button {
+        color: var(--Th-A-4);
+    }
+
+    .card a {
+        color: var(--Th-A-4);
+    }
+
+    .card-button:hover,
+    a:hover {
+        color: var(--Th-A-3);
+    }
+
+    .details-table tr :nth-child(2) {
+        color: var(--Th-A-4);
+    }
+
+    .section-skill {
+        background-color: var(--Th-A-1);
+    }
+
+    .skill-first-heading {
+        color: var(--Th-A-4l);
+    }
+
+    .skill-second-heading {
+        color: var(--Th-A-3);
+    }
+
+    .skill-second-heading:hover {
+        color: var(--Th-A-1);
+        text-shadow: -2px -2px 0 var(--Th-A-3), 2px -2px 0 var(--Th-A-3),
+            -2px 2px 0 var(--Th-A-3), 2px 2px 0 var(--Th-A-3);
+    }
+
+    .python,
+    .html,
+    .css,
+    .js,
+    .wp,
+    .seo {
+        background-color: var(--Th-A-3);
+    }
+
+    .skill-reset {
+        background-color: var(--Th-A-2);
+    }
+
+    .skill-reset:hover {
+        color: var(--Th-A-3);
+    }
+
+    .section-services {
+        background-color: var(--Th-A-1);
+    }
+
+    .services-first-heading {
+        color: var(--Th-A-4l);
+    }
+
+    .services-second-heading {
+        color: var(--Th-A-3);
+    }
+
+    .services-second-heading:hover {
+        color: var(--Th-A-1);
+        text-shadow:
+            -2px -2px 0 var(--Th-A-3),
+            2px -2px 0 var(--Th-A-3),
+            -2px 2px 0 var(--Th-A-3),
+            2px 2px 0 var(--Th-A-3);
+    }
+
+    .service-box {
+        border: 2px solid var(--Th-A-4);
+        background-color: var(--Th-A-2);
+    }
+
+    .service-box:hover {
+        background-color: var(--Th-A-3);
+        border-color: var(--Th-A-4);
+
+
+        .service-box-icon {
+            background-color: var(--Th-A-3);
+            border-color: var(--Th-A-4);
+        }
+    }
+
+    .service-box-icon {
+        background-color: var(--Th-A-4);
+        border: 2px solid var(--Th-A-4);
+    }
+
+    .section-projects {
+        background-color: var(--Th-A-1);
+    }
+
+    .projects-first-heading {
+        color: var(--Th-A-4l);
+    }
+
+    .projects-second-heading {
+        color: var(--Th-A-3);
+    }
+
+    .projects-second-heading:hover {
+        color: var(--Th-A-1);
+        text-shadow:
+            -2px -2px 0 var(--Th-A-3),
+            2px -2px 0 var(--Th-A-3),
+            -2px 2px 0 var(--Th-A-3),
+            2px 2px 0 var(--Th-A-3);
+    }
+
+    .project-overlay {
+        background-color: var(--Th-A-2);
+        color: var(--Th-A-4);
+    }
+
+    .project-overlay h2 {
+        color: var(--Th-A-3);
+    }
+
+    .section-contact {
+        background-color: var(--Th-A-1);
+    }
+
+    .contact-first-heading {
+        color: var(--Th-A-4l);
+    }
+
+    .contact-second-heading {
+        color: var(--Th-A-3);
+    }
+
+    .contact-second-heading:hover {
+        color: var(--Th-A-1);
+        text-shadow:
+            -2px -2px 0 var(--Th-A-3),
+            2px -2px 0 var(--Th-A-3),
+            -2px 2px 0 var(--Th-A-3),
+            2px 2px 0 var(--Th-A-3);
+    }
+
+    .main-flex input,
+    textarea {
+        border-bottom: 1px solid var(--Th-A-3);
+    }
+
+    .main-flex input:hover,
+    textarea:hover {
+        border-color: var(--Th-A-4);
+        box-shadow: 4px 4px 4px 1px var(--Th-A-4);
+    }
+
+    .contact-button {
+        border: 2px solid var(--Th-A-3);
+    }
+
+    .contact-button:hover {
+        border: 2px solid var(--Th-A-4);
+        box-shadow: 0px 0px 8px 3px var(--Th-A-4);
+    }
+
+
+    footer {
+        color: var(--Th-A-3);
+        background-color: var(--Th-A-1);
+    }
+
+
+    .footer-box p {
+        color: var(--Th-A-4);
+    }
+
+    .footer-box a {
+        color: var(--Th-A-4);
+    }
+
+}
+
+/* ------------------------------------------------------------------------------ */
+.theme-2 {
+
+    .desktop-view-nav ul li a:hover {
+        color: var(--Th-C-3);
+    }
+
+    .topnav,
+    .active {
+        background-color: var(--Th-C-1);
+    }
+
+    .home-image {
+        background-color: var(--Th-C-1);
+    }
+
+    .box {
+        box-shadow: 2px 2px 3px 2px var(--Th-C-4);
+    }
+
+    .box-1-text {
+        color: var(--Th-C-4);
+    }
+
+    .box-1-text :nth-child(1) {
+        color: var(--Th-C-3);
+    }
+
+    .box-1-text :nth-child(3) {
+        color: var(--Th-C-1);
+        text-shadow: -1px -1px 0 var(--Th-C-3), 1px -1px 0 var(--Th-C-3),
+            -1px 1px 0 var(--Th-C-3), 1px 1px 0 var(--Th-C-3);
+    }
+
+    .box-1-text :nth-child(4) {
+        color: var(--Th-C-1);
+        text-shadow: -1px -1px 0 var(--Th-C-3), 1px -1px 0 var(--Th-C-3),
+            -1px 1px 0 var(--Th-C-3), 1px 1px 0 var(--Th-C-3);
+    }
+
+    .box {
+        border: 6px solid var(--Th-C-3);
+    }
+
+    .box-2-image {
+        box-shadow: 0px 0px 16px 5px var(--Th-C-3);
+    }
+
+    .section-about {
+        background-color: var(--Th-C-1);
+    }
+
+    .about-first-heading {
+        color: var(--Th-C-4l);
+    }
+
+    .about-second-heading {
+        color: var(--Th-C-3);
+    }
+
+    .about-second-heading:hover {
+        color: var(--Th-C-1);
+        text-shadow: -2px -2px 0 var(--Th-C-3), 2px -2px 0 var(--Th-C-3),
+            -2px 2px 0 var(--Th-C-3), 2px 2px 0 var(--Th-C-3);
+    }
+
+    .card {
+        box-shadow: 0px 0px 18px 5px var(--Th-C-3);
+        background-color: var(--Th-C-2);
+    }
+
+    .card:hover {
+        box-shadow: 9px 9px 18px 1px var(--Th-C-3);
+    }
+
+    .title {
+        color: var(--Th-C-4);
+    }
+
+    .card-button {
+        color: var(--Th-C-4);
+    }
+
+    .card a {
+        color: var(--Th-C-4);
+    }
+
+    .card-button:hover,
+    a:hover {
+        color: var(--Th-C-3);
+    }
+
+    .details-table tr :nth-child(2) {
+        color: var(--Th-C-4);
+    }
+
+    .section-skill {
+        background-color: var(--Th-C-1);
+    }
+
+    .skill-first-heading {
+        color: var(--Th-C-4l);
+    }
+
+    .skill-second-heading {
+        color: var(--Th-C-3);
+    }
+
+    .skill-second-heading:hover {
+        color: var(--Th-C-1);
+        text-shadow: -2px -2px 0 var(--Th-C-3), 2px -2px 0 var(--Th-C-3),
+            -2px 2px 0 var(--Th-C-3), 2px 2px 0 var(--Th-C-3);
+    }
+
+    .python,
+    .html,
+    .css,
+    .js,
+    .wp,
+    .seo {
+        background-color: var(--Th-C-3);
+    }
+
+    .skill-reset {
+        background-color: var(--Th-C-2);
+    }
+
+    .skill-reset:hover {
+        color: var(--Th-C-3);
+    }
+
+    .section-services {
+        background-color: var(--Th-C-1);
+    }
+
+    .services-first-heading {
+        color: var(--Th-C-4l);
+    }
+
+    .services-second-heading {
+        color: var(--Th-C-3);
+    }
+
+    .services-second-heading:hover {
+        color: var(--Th-C-1);
+        text-shadow:
+            -2px -2px 0 var(--Th-C-3),
+            2px -2px 0 var(--Th-C-3),
+            -2px 2px 0 var(--Th-C-3),
+            2px 2px 0 var(--Th-C-3);
+    }
+
+    .service-box {
+        border: 2px solid var(--Th-C-4);
+        background-color: var(--Th-C-2);
+    }
+
+    .service-box:hover {
+        background-color: var(--Th-C-3);
+        border-color: var(--Th-C-4);
+
+
+        .service-box-icon {
+            background-color: var(--Th-C-3);
+            border-color: var(--Th-C-4);
+        }
+    }
+
+    .service-box-icon {
+        background-color: var(--Th-C-4);
+        border: 2px solid var(--Th-C-4);
+    }
+
+    .section-projects {
+        background-color: var(--Th-C-1);
+    }
+
+    .projects-first-heading {
+        color: var(--Th-C-4l);
+    }
+
+    .projects-second-heading {
+        color: var(--Th-C-3);
+    }
+
+    .projects-second-heading:hover {
+        color: var(--Th-C-1);
+        text-shadow:
+            -2px -2px 0 var(--Th-C-3),
+            2px -2px 0 var(--Th-C-3),
+            -2px 2px 0 var(--Th-C-3),
+            2px 2px 0 var(--Th-C-3);
+    }
+
+    .project-overlay {
+        background-color: var(--Th-C-2);
+        color: var(--Th-C-4);
+    }
+
+    .project-overlay h2 {
+        color: var(--Th-C-3);
+    }
+
+    .section-contact {
+        background-color: var(--Th-C-1);
+    }
+
+    .contact-first-heading {
+        color: var(--Th-C-4l);
+    }
+
+    .contact-second-heading {
+        color: var(--Th-C-3);
+    }
+
+    .contact-second-heading:hover {
+        color: var(--Th-C-1);
+        text-shadow:
+            -2px -2px 0 var(--Th-C-3),
+            2px -2px 0 var(--Th-C-3),
+            -2px 2px 0 var(--Th-C-3),
+            2px 2px 0 var(--Th-C-3);
+    }
+
+    .main-flex input,
+    textarea {
+        border-bottom: 1px solid var(--Th-C-3);
+    }
+
+    .main-flex input:hover,
+    textarea:hover {
+        border-color: var(--Th-C-4);
+        box-shadow: 4px 4px 4px 1px var(--Th-C-4);
+    }
+
+    .contact-button {
+        border: 2px solid var(--Th-C-3);
+    }
+
+    .contact-button:hover {
+        border: 2px solid var(--Th-C-4);
+        box-shadow: 0px 0px 8px 3px var(--Th-C-4);
+    }
+
+
+    footer {
+        color: var(--Th-C-3);
+        background-color: var(--Th-C-1);
+    }
+
+
+    .footer-box p {
+        color: var(--Th-C-4);
+    }
+
+    .footer-box a {
+        color: var(--Th-C-4);
+    }
+}
+
+
+/* ------------------------------- */
+.theme-3 {
+
+    .desktop-view-nav ul li a:hover {
+        color: var(--Th-D-3);
+    }
+
+    .topnav,
+    .active {
+        background-color: var(--Th-D-1);
+    }
+
+    .home-image {
+        background-color: var(--Th-D-1);
+    }
+
+    .box {
+        box-shadow: 2px 2px 3px 2px var(--Th-D-4);
+    }
+
+    .box-1-text {
+        color: var(--Th-D-4);
+    }
+
+    .box-1-text :nth-child(1) {
+        color: var(--Th-D-3);
+    }
+
+    .box-1-text :nth-child(3) {
+        color: var(--Th-D-1);
+        text-shadow: -1px -1px 0 var(--Th-D-3), 1px -1px 0 var(--Th-D-3),
+            -1px 1px 0 var(--Th-D-3), 1px 1px 0 var(--Th-D-3);
+    }
+
+    .box-1-text :nth-child(4) {
+        color: var(--Th-D-1);
+        text-shadow: -1px -1px 0 var(--Th-D-3), 1px -1px 0 var(--Th-D-3),
+            -1px 1px 0 var(--Th-D-3), 1px 1px 0 var(--Th-D-3);
+    }
+
+    .box {
+        border: 6px solid var(--Th-D-3);
+    }
+
+    .box-2-image {
+        box-shadow: 0px 0px 16px 5px var(--Th-D-3);
+    }
+
+    .section-about {
+        background-color: var(--Th-D-1);
+    }
+
+    .about-first-heading {
+        color: var(--Th-D-4l);
+    }
+
+    .about-second-heading {
+        color: var(--Th-D-3);
+    }
+
+    .about-second-heading:hover {
+        color: var(--Th-D-1);
+        text-shadow: -2px -2px 0 var(--Th-D-3), 2px -2px 0 var(--Th-D-3),
+            -2px 2px 0 var(--Th-D-3), 2px 2px 0 var(--Th-D-3);
+    }
+
+    .card {
+        box-shadow: 0px 0px 18px 5px var(--Th-D-3);
+        background-color: var(--Th-D-2);
+    }
+
+    .card:hover {
+        box-shadow: 9px 9px 18px 1px var(--Th-D-3);
+    }
+
+    .title {
+        color: var(--Th-D-4);
+    }
+
+    .card-button {
+        color: var(--Th-D-4);
+    }
+
+    .card a {
+        color: var(--Th-D-4);
+    }
+
+    .card-button:hover,
+    a:hover {
+        color: var(--Th-D-3);
+    }
+
+    .details-table tr :nth-child(2) {
+        color: var(--Th-D-4);
+    }
+
+    .section-skill {
+        background-color: var(--Th-D-1);
+    }
+
+    .skill-first-heading {
+        color: var(--Th-D-4l);
+    }
+
+    .skill-second-heading {
+        color: var(--Th-D-3);
+    }
+
+    .skill-second-heading:hover {
+        color: var(--Th-D-1);
+        text-shadow: -2px -2px 0 var(--Th-D-3), 2px -2px 0 var(--Th-D-3),
+            -2px 2px 0 var(--Th-D-3), 2px 2px 0 var(--Th-D-3);
+    }
+
+    .python,
+    .html,
+    .css,
+    .js,
+    .wp,
+    .seo {
+        background-color: var(--Th-D-3);
+    }
+
+    .skill-reset {
+        background-color: var(--Th-D-2);
+    }
+
+    .skill-reset:hover {
+        color: var(--Th-D-3);
+    }
+
+    .section-services {
+        background-color: var(--Th-D-1);
+    }
+
+    .services-first-heading {
+        color: var(--Th-D-4l);
+    }
+
+    .services-second-heading {
+        color: var(--Th-D-3);
+    }
+
+    .services-second-heading:hover {
+        color: var(--Th-D-1);
+        text-shadow:
+            -2px -2px 0 var(--Th-D-3),
+            2px -2px 0 var(--Th-D-3),
+            -2px 2px 0 var(--Th-D-3),
+            2px 2px 0 var(--Th-D-3);
+    }
+
+    .service-box {
+        border: 2px solid var(--Th-D-4);
+        background-color: var(--Th-D-2);
+    }
+
+    .service-box:hover {
+        background-color: var(--Th-D-3);
+        border-color: var(--Th-D-4);
+
+
+        .service-box-icon {
+            background-color: var(--Th-D-3);
+            border-color: var(--Th-D-4);
+        }
+    }
+
+    .service-box-icon {
+        background-color: var(--Th-D-4);
+        border: 2px solid var(--Th-D-4);
+    }
+
+    .section-projects {
+        background-color: var(--Th-D-1);
+    }
+
+    .projects-first-heading {
+        color: var(--Th-D-4l);
+    }
+
+    .projects-second-heading {
+        color: var(--Th-D-3);
+    }
+
+    .projects-second-heading:hover {
+        color: var(--Th-D-1);
+        text-shadow:
+            -2px -2px 0 var(--Th-D-3),
+            2px -2px 0 var(--Th-D-3),
+            -2px 2px 0 var(--Th-D-3),
+            2px 2px 0 var(--Th-D-3);
+    }
+
+    .project-overlay {
+        background-color: var(--Th-D-2);
+        color: var(--Th-D-4);
+    }
+
+    .project-overlay h2 {
+        color: var(--Th-D-3);
+    }
+
+    .section-contact {
+        background-color: var(--Th-D-1);
+    }
+
+    .contact-first-heading {
+        color: var(--Th-D-4l);
+    }
+
+    .contact-second-heading {
+        color: var(--Th-D-3);
+    }
+
+    .contact-second-heading:hover {
+        color: var(--Th-D-1);
+        text-shadow:
+            -2px -2px 0 var(--Th-D-3),
+            2px -2px 0 var(--Th-D-3),
+            -2px 2px 0 var(--Th-D-3),
+            2px 2px 0 var(--Th-D-3);
+    }
+
+    .main-flex input,
+    textarea {
+        border-bottom: 1px solid var(--Th-D-3);
+    }
+
+    .main-flex input:hover,
+    textarea:hover {
+        border-color: var(--Th-D-4);
+        box-shadow: 4px 4px 4px 1px var(--Th-D-4);
+    }
+
+    .contact-button {
+        border: 2px solid var(--Th-D-3);
+    }
+
+    .contact-button:hover {
+        border: 2px solid var(--Th-D-4);
+        box-shadow: 0px 0px 8px 3px var(--Th-D-4);
+    }
+
+
+    footer {
+        color: var(--Th-D-3);
+        background-color: var(--Th-D-1);
+    }
+
+
+    .footer-box p {
+        color: var(--Th-D-4);
+    }
+
+    .footer-box a {
+        color: var(--Th-D-4);
+    }
+
+}
