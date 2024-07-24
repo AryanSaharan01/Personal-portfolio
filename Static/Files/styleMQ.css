@@ -377,7 +377,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 480px) {
 
     .box1 {
         width: 300px;
@@ -474,8 +474,7 @@
         }
     }
 
-    /* ----------------------------- */
-}
+} */
 
 
 
@@ -585,6 +584,23 @@
         translate: 0 -70px;
     } */
 
+    .details{
+        width: 85%;
+    }
+
+    .details p {
+        font-size: 16px;
+    }
+
+    .details-table tr :nth-child(1) {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .details-table tr :nth-child(2) {
+        font-size: 16px;
+    }
+
     .skill-grid {
         width: 90%;
         padding: 0;
@@ -640,6 +656,23 @@
     
     .main-flex input {
         width: 100%;
+    }
+
+    .details{
+        width: 85%;
+    }
+
+    .details p {
+        font-size: 16px;
+    }
+
+    .details-table tr :nth-child(1) {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .details-table tr :nth-child(2) {
+        font-size: 16px;
     }
 
 }
@@ -711,6 +744,23 @@
         width: 100%;
     }
 
+    .details{
+        width: 85%;
+    }
+
+    .details p {
+        font-size: 15px;
+    }
+
+    .details-table tr :nth-child(1) {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .details-table tr :nth-child(2) {
+        font-size: 15px;
+    }
+
 
     /* --------------------------- */
 }
@@ -769,6 +819,10 @@
     .contact-second-heading {
         font-size: 62px;
         translate: 0px -55px;
+    }
+
+    .details{
+        width: 85%;
     }
 
     .details p {
